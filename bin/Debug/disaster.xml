@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+
+<fsm name="Disaster Machine">
+	<states>
+		<state name="start">
+		<ask></ask>
+			<transition input="pozitif" next="streptokokalAgTesti" ask="Streptokokal Ag Testi Pozitif/Negatif"/>
+			<transition input="negatif" next="hafif" ask="Ateşiniz Var mı? Pozitif/Negatif"/>
+		</state>
+		<state name="hafif">
+			<transition input="pozitif" next="streptokokalAgTesti" ask="Streptokokal Ag Testi Pozitif/Negatif"/>
+			<transition input="negatif" next="semptomatikTedavi" action="dispense" ask="Semptotik tedavi uygulanacaktır!"/>
+		</state>
+		<state name="semptomatikTedavi">
+			<transition input="pozitif" next="start" action="dispense" />
+			<transition input="negatif" next="start" action="dispense" />
+
+		</state>
+		<state name="streptokokalAgTesti">
+			<transition input="pozitif" next="penisilinUygula" ask="Penisiline karşı alerjiniz var mı? Pozitif/Negatif "/>
+			<transition input="negatif" next="bogazKultur" ask="Bogaz kültür tedavisi sonucu ? Pozitif/Negatif "/>
+		</state>
+		<state name="bogazKultur">
+			<transition input="pozitif" next="penisilinUygula" ask="Penisiline karşı alerjiniz var mı? Pozitif/Negatif " />
+			<transition input="negatif" next="semptomatikTedavi" action="dispense" ask="Semptotik tedavi uygulanacaktır!"/>
+		</state>
+		<state name="penisilinUygula"> 
+			<transition input="pozitif" next="antibiyotikUygula" action="dispense" ask="Antibiyotik tedavisi uygulanacaktır!"/>
+			<transition input="negatif" next="penisilinUygula" action="dispense" ask="Penisilin tedavisi uygulanacaktır!"/>
+		</state>
+		<state name="antibiyotikUygula">
+			<transition input="pozitif" next="start" action="dispense" />
+			<transition input="negatif" next="start" action="dispense" />
+		</state>
+		
+	</states>
+</fsm>

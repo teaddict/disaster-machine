@@ -1,0 +1,16 @@
+C:\Users\rpdmania\documents\visual studio 2010\Projects\automata\automata\bin\Debug\automata.exe
+C:\Users\rpdmania\documents\visual studio 2010\Projects\automata\automata\bin\Debug\automata.pdb
+C:\Users\rpdmania\documents\visual studio 2010\Projects\automata\automata\obj\x86\Debug\automata.Form1.resources
+C:\Users\rpdmania\documents\visual studio 2010\Projects\automata\automata\obj\x86\Debug\automata.Properties.Resources.resources
+C:\Users\rpdmania\documents\visual studio 2010\Projects\automata\automata\obj\x86\Debug\automata.csproj.GenerateResource.Cache
+C:\Users\rpdmania\documents\visual studio 2010\Projects\automata\automata\obj\x86\Debug\automata.exe
+C:\Users\rpdmania\documents\visual studio 2010\Projects\automata\automata\obj\x86\Debug\automata.pdb
+C:\Users\rpdmania\documents\visual studio 2010\Projects\automata\automata\obj\x86\Debug\automata.csprojResolveAssemblyReference.cache
+C:\Users\schwammkopf\Documents\Visual Studio 2012\Projects\automata\automata\automata\obj\x86\Debug\automata.exe
+C:\Users\schwammkopf\Documents\Visual Studio 2012\Projects\automata\automata\automata\obj\x86\Debug\automata.pdb
+C:\Users\schwammkopf\Documents\Visual Studio 2012\Projects\automata\automata\automata\bin\Debug\automata.exe
+C:\Users\schwammkopf\Documents\Visual Studio 2012\Projects\automata\automata\automata\bin\Debug\automata.pdb
+C:\Users\schwammkopf\Documents\Visual Studio 2012\Projects\automata\automata\automata\obj\x86\Debug\automata.csprojResolveAssemblyReference.cache
+C:\Users\schwammkopf\Documents\Visual Studio 2012\Projects\automata\automata\automata\obj\x86\Debug\automata.Form1.resources
+C:\Users\schwammkopf\Documents\Visual Studio 2012\Projects\automata\automata\automata\obj\x86\Debug\automata.Properties.Resources.resources
+C:\Users\schwammkopf\Documents\Visual Studio 2012\Projects\automata\automata\automata\obj\x86\Debug\automata.csproj.GenerateResource.Cache
