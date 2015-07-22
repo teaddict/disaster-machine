@@ -13,3 +13,8 @@ It is about automation systems in medicine. It is a decision support system.
 Our subject was throat infections. They system should help us for detecting and treatment.
 Our program works context free. The questions for patient is in our xml file, so we dont need to change our codes, it is independent system.
 
+![alt tag](https://github.com/teaddict/disaster-machine/blob/master/dfa.jpg)
+
+![alt tag](https://github.com/teaddict/disaster-machine/blob/master/app1.jpg)
+
+![alt tag](https://github.com/teaddict/disaster-machine/blob/master/app2.jpg)
